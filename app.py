@@ -67,7 +67,7 @@ def save_to_csv(data, filename):
     df.to_csv(filename, index=False)
 
 def main():
-    api_key = "AIzaSyDLSJnUse_1zFO_oIf5g2fLwht75El1B5M"
+    api_key = ""
     genre = input("Enter genre: ")
     youtube = initialize_youtube(api_key)
     
